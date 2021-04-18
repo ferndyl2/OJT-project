@@ -72,14 +72,7 @@
                 </a>
             </li>
             @endif
-            <li class="nav-item">
-                <a href="{{ route("admin.reports.index") }}" class="nav-link {{ request()->is('admin/reports') || request()->is('admin/reports/*') ? 'active' : '' }}">
-                    <i class="fa-fw fas fa-calendar nav-icon">
-
-                    </i>
-                    Reports
-                </a>
-            </li>
+            
             <li class="nav-item">
                 <a href="#" class="nav-link" onclick="event.preventDefault(); document.getElementById('logoutform').submit();">
                     <i class="nav-icon fas fa-fw fa-sign-out-alt">
